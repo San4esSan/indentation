@@ -19,11 +19,12 @@
 
 .block__text-image5 {
   border-top: 1px solid #000000;
+  border-right: 1px solid #000000;
   margin-bottom: 30px;
 }
 
 .block__text-image5 .image5 {
-  margin: 0 0 0 -1px;
+  margin: 0;
 }
 
 .block__text-image5 p {
