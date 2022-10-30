@@ -30,9 +30,8 @@
 .block__text-image5 p {
   margin: 0;
   padding: 15px 30px;
-  border-left: 1px solid #000000;
-  border-bottom: 1px solid #000000;
-  border-right: 1px solid #000000;
+  border: 1px solid #000000;
+  border-top: none;
 }
 
 .list-right,
