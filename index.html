@@ -24,19 +24,19 @@
 
         <ol class="header-content__list">
           <li class="header-content__item">
-            <a href="#block1" class="header-content__link">
+            <a href="#indent-previous-element" class="header-content__link">
               Отступ задается от предыдущего элемента к следующему
             </a>
           </li>
 
           <li class="header-content__item">
-            <a href="#block2" class="header-content__link">
+            <a href="#indent-last-element" class="header-content__link">
               Отступ задается последнему возможному элементу в DOM-дереве
             </a>
           </li>
 
           <li class="header-content__item">
-            <a href="#block3" class="header-content__link">
+            <a href="#nulling-last-element" class="header-content__link">
               Для последнего элемента группы отступ обнуляется
             </a>
           </li>
@@ -46,7 +46,7 @@
   </header>
 
   <main>
-    <section class="block" id="block1">
+    <section class="block block-one" id="indent-previous-element">
       <div class="container">
         <h3 class="block__title">
           Отступ задается от предыдущего элемента к следующему: от первого ко второму, сверху вниз, слева направо.
@@ -86,11 +86,10 @@
 
           <img class="img__right" src="./img/image2.jpg" width="560" height="279" alt="картинка с внутренним отступом сверху">
         </div>
-        <div></div>
       </div>
     </section>
 
-    <section class="block2" id="block2">
+    <section class="block block-two" id="indent-last-element">
       <div class="container">
         <h3 class="block__title">
           Отступ задается последнему возможному элементу в DOM-дереве
@@ -137,7 +136,7 @@
       </div>
     </section>
 
-    <section class="block3" id="block3">
+    <section class="block block-three" id="nulling-last-element">
       <div class="container">
         <h3 class="block__title">
           Для последнего элемента группы отступ всегда обнуляется
@@ -185,7 +184,7 @@
 
   <footer class="footer">
     <div class="container">
-      <section class="footer__wrap">
+      <div class="footer__results">
         <h3 class="footer__title">Подытожим:</h3>
 
         <ul class="footer__list">
@@ -209,7 +208,7 @@
         <p class="footer__text">
           Конечно бывают исключения. Ведь макеты бывают различной сложности. Иногда базовые принципы приходится нарушать в угоду дизайнерского решения или простоты вёрстки. Но для этого эти принципы необходимо хорошо знать.
         </p>
-      </section>
+      </div>
     </div>
   </footer>
 
